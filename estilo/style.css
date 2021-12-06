@@ -30,37 +30,27 @@ a.externo::after{
     content: '\1F517';
 }
 h1{
-    margin-bottom: 20px;
-    
+    padding: 30px;
 }
 h2{
     font-size: 1.6em;
     font-family: var(--fonte-padrao);
     color: black;
-    margin-top: 20px;
-    margin-bottom: 20px;
     background-image: linear-gradient(to right, var(--cor1), transparent);
     text-indent: 5px;
     border-radius: 5px;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    
+    font-size: large;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.349);
+    }
+.dia{
+    font-size: 2.5em;
 }
-#dia{
-    font-size: 2em;
-}
-h3{
-    text-align: center;
-    font-size: 1.6em;
-    background-image: linear-gradient(to left, var(--cor1), transparent);
-    border-radius: 5px;
-}
-
 p{
     text-align: justify;
 }
-
 header{
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
     min-height: 150px;
@@ -69,7 +59,7 @@ header{
     
 }
 header h1{
-    font-size: 4em;
+    font-size: 5em;
     color: white;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.349);
     
@@ -153,9 +143,7 @@ main a:hover{
     text-decoration: underline;
     color: var(--cor4);
 }
-
 iframe{
-    
     width: 100%;
     margin: auto;
     margin-top: 20px;
@@ -163,6 +151,7 @@ iframe{
     border-radius: 10px;
 }
 aside {
+    color: white;
     background-color: var(--cor1);
     padding: 10px;
     border-radius: 10px;
@@ -171,12 +160,7 @@ aside {
 aside a{
     background-color: var(--cor3);
 }
-aside ul{
-    list-style-type: '\2714\00A0\00A0';
-    list-style-position: inside;
-    margin: 5px;
-    columns: 2;
-}
+
 aside > h3{
     background-color: var(--cor4);
     color: white;
@@ -189,8 +173,8 @@ footer p{
     color: white;
     text-align: center;
     font-style: bold;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
 }
 footer a{
@@ -206,4 +190,29 @@ footer a:hover{
     font-style: bold;
     font-style: italic;
 }
+.accordion-header :hover{
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    border-radius: 10px;
+}
+
+.accordion-item{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.dropz{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.dropz2{
+    font-size: 1.5em;
+}
+.publicidade{
+    text-align: center;
+    padding: 70px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.404);
+}
+
+
+
 
