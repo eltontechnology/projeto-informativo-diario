@@ -74,6 +74,7 @@ header > p{
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.349);
 }
 nav{
+    text-align: end;
     background-color: var(--cor5);
     padding: 10px;
     text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.349);
@@ -194,6 +195,14 @@ footer a:hover{
     background-image: linear-gradient(to right, var(--cor1), transparent);
     border-radius: 10px;
 }
+.accordion-header{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: .5s;
+}
 
 .accordion-item{
     margin-top: 20px;
@@ -215,6 +224,7 @@ footer a:hover{
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.404);
 }
+
 
 
 
